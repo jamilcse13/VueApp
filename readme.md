@@ -38,3 +38,7 @@
     - :style="myClasses"    //Object
     - :style="[style1, style2]"
     - :style="{ 'width': width + '%' }"
+
+## Computed Properties
+- when we write a logic inside computed, then we should return *fullName*
+- when we write a logic inside methods, then we should return *fullName()*
