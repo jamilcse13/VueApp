@@ -42,3 +42,9 @@
 ## Computed Properties
 - when we write a logic inside computed, then we should return *fullName*
 - when we write a logic inside methods, then we should return *fullName()*
+- sort():
+    - this.topTenFrameworks.sort((a, b) => (a.score - b.score) * this.order)
+
+
+## Project DataVue
+- 

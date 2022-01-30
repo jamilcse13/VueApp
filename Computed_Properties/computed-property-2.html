@@ -61,7 +61,7 @@
         computed: {
             topTenFrameworksSorted() {
                 // return this.topTenFrameworks.sort((a, b) => a.score - b.score);     //asc
-                return this.topTenFrameworks.sort((a, b) => (a.score - b.score) * this.order);     //desc
+                return this.topTenFrameworks.sort((a, b) => (a.score - b.score) * this.order);     //asc & desc
             },
 
             sortType() {
