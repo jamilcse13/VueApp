@@ -34,9 +34,9 @@
                 <table class="table table-striped table-hover">
                     <thead>
                         <tr>
-                            <th>Product Name</th>
-                            <th>Category</th>
-                            <th @click="sort('price')" :class="classes">Price</th>
+                            <th @click="sort('name')" :class="classes('name')">Product Name</th>
+                            <th @click="sort('category')" :class="classes('category')">Category</th>
+                            <th @click="sort('price')" :class="classes('price')">Price</th>
                         </tr>
                     </thead>
                     <tbody>

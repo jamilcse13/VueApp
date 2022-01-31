@@ -40,11 +40,18 @@
     - :style="{ 'width': width + '%' }"
 
 ## Computed Properties
-- when we write a logic inside computed, then we should return *fullName*
-- when we write a logic inside methods, then we should return *fullName()*
+- computed:
+    - when we write a logic inside computed, then we should return *fullName*
+    - we can not pass argument in computed porperties
+- methods:
+    - when we write a logic inside methods, then we should return *fullName()*
+    - we can pass argument in methods porperties
 - sort():
     - this.topTenFrameworks.sort((a, b) => (a.score - b.score) * this.order)
 
 
 ## Project DataVue
-- 
+- isNaN(x): 
+    - it returns false if the value of x is a number
+    - it returns true if the value of x is not a number
+
