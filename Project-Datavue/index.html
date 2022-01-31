@@ -21,9 +21,9 @@
                         <div class="form-inline justify-content-end">
                             <div class="form-group">
                                 <div class="input-group">
-                                  <input type="text" class="form-control" placeholder="Search...">
+                                  <input type="text" v-model="filters.name" class="form-control" placeholder="Search...">
                                   <div class="input-group-append">
-                                    <button class="btn btn-outline-secondary" type="button"><i class="fas fa-sync-alt"></i></button>
+                                    <button class="btn btn-outline-secondary" v-show="whenSearching" @click="clearText" type="button"><i class="fas fa-sync-alt"></i></button>
                                     <button class="btn btn-outline-secondary" type="button"><i class="fas fa-search"></i></button>
                                   </div>
                                 </div>
